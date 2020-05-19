@@ -4,9 +4,9 @@ $color-visited: #05676e;
 $color-activ: #489c79;
 $color-button-backgraund: #357b70;
 $color-button-secendery: #2b2b2b;
-$color-keyframe-low: #edc655;
-$color-keyframe-middel: #fcffad;
-$color-keyframe-voll: #f76414;
+$color-keyframe-0: #edc655;
+$color-keyframe-50: #fcffad;
+$color-keyframe-100: #f76414;
 $body-font-weight: 400;
 $body-font-size: 16px;
 $h-font-weight: 700;
@@ -210,13 +210,13 @@ button:focus,
 
 @-webkit-keyframes color-change {
   0% {
-    fill: $color-keyframe-low;
+    fill: $color-keyframe-0;
   }
   50% {
-    fill: $color-keyframe-middel;
+    fill: $color-keyframe-50;
   }
   100% {
-    fill: $color-keyframe-voll;
+    fill: $color-keyframe-100;
   }
 }
 
