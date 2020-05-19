@@ -141,6 +141,12 @@ button {
     height: 8%;
 }
 
+.icon-so {
+    width: 20%;
+    height: 20%;
+    enable-background: 0 0 48 48;
+}
+
 /* work.html css*/
 .grid {
     display: -ms-grid;
