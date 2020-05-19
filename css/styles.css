@@ -12,6 +12,7 @@
 }
 
 body{
+    margin-left: 100px;
     background-color: #a4ccd0;
     font-family: 'Playfair Display', serif;
     font-weight: 400;
@@ -132,6 +133,12 @@ button {
     -ms-flex-positive: 1;
     flex-grow: 1;
     text-align: right;
+}
+
+.small-logo {
+    position: relative;
+    width: 20%;
+    height: 8%;
 }
 
 /* work.html css*/
