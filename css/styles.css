@@ -4,7 +4,11 @@
 * Autoprefixer: v9.7.6
 * Browsers: last 4 version
 */
+/*  */
+:root{
+    --primaryColor: #a4ccd0;
 
+}
 
 * {
     -webkit-box-sizing: border-box;
@@ -13,7 +17,7 @@
 
 body{
     margin-left: 100px;
-    background-color: #a4ccd0;
+    background-color: var(--primaryColor);
     font-family: 'Playfair Display', serif;
     font-weight: 400;
     font-size: 16px;
