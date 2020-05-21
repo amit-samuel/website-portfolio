@@ -6,8 +6,15 @@
 */
 /*  */
 :root{
-    --primaryColor: #a4ccd0;
-
+    --main-bg-color: #a4ccd0;
+    --main-a-color: #357b70;
+    --main-visited-color: #05676e;
+    --main-activ-color: #489c79;
+    --main-button-bg-color: #e0b354;
+    --main-button-color:#2b2b2b;
+    --main-keyframes-0-color: #edc655;
+    --main-keyframes-50-color: #fcffad;
+    --main-keyframes-100-color: #f76414;
 }
 
 * {
@@ -17,7 +24,7 @@
 
 body{
     margin-left: 100px;
-    background-color: var(--primaryColor);
+    background-color: var(--main-bg-color);
     font-family: 'Playfair Display', serif;
     font-weight: 400;
     font-size: 16px;
@@ -39,18 +46,18 @@ h3 {
 }
 
 a {
-    color: #357b70;
+    color: var(--main-a-color);
 }
 
 
 a:visited {
     /* visited link */
-    color: #05676e;
+    color: var(--main-visited-color);
 }
 
 a:active {
     /* selected link */
-    color: #489c79;
+    color: var(--main-activ-color);
 }
 a:hover, a:focus {
     /* No underlining when hovering over a link */
@@ -75,8 +82,8 @@ button {
 }
 
 .button__secondary {
-    background-color: #e0b354;
-    color: #2b2b2b;
+    background-color: var(--main-button-bg-color);
+    color: var(--main-button-color);
 }
 
 .navigation-list__item--active {
@@ -213,25 +220,25 @@ button:focus,
 
 @-webkit-keyframes color-change {
     0% {
-        fill: #edc655;
+        fill: var(--main-keyframes-0-color);
     }
     50% {
-        fill: #fcffad;
+        fill: var(--main-keyframes-50-color);
     }
     100% {
-        fill: #f76414;
+        fill: var(--main-keyframes-100-color);
     }
 }
 
 @keyframes color-change {
     0% {
-        fill: #edc655;
+        fill: var(--main-keyframes-0-color);
     }
     50% {
-        fill: #fcffad;
+        fill: var(--main-keyframes-50-color);
     }
     100% {
-        fill: #f76414;
+        fill: var(--main-keyframes-100-color);
     }
 }
 
